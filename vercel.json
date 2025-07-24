@@ -3,5 +3,4 @@
   "outputDirectory": "build",
   "installCommand": "npm install",
   "devCommand": "npm start",
-  "root": "frontend"
 }

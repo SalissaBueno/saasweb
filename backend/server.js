@@ -14,7 +14,12 @@ const port = process.env.PORT || 5000; // Define a porta do servidor, ou usa 500
 // Em desenvolvimento local, será 'http://localhost:3000'
 // Em produção, será a URL do seu frontend no Vercel
 app.use(cors({
-    origin: process.env.FRONTEND_URL || 'http://localhost:3000'
+    origin: [
+    'http://localhost:3000',
+    'https://saaswebv.vercel.app',
+    'https://*.vercel.app' // Para aceitar todas as URLs de preview do Vercel
+  ],
+  credentials: true
 }));
 
 // Habilita o Express a receber JSON no corpo das requisições

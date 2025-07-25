@@ -49,6 +49,7 @@
                     }
                 } catch (error) {
                     console.error('Erro na requisição da IA:', error);
+                    console.error(‘Detalhes do erro:’, error.message, error.stack, error.response); // Adicione esta linha para registrar mais detalhes do erro
                     setChatMessages((prevMessages) => [...prevMessages, { sender: 'ai', text: 'Não foi possível conectar com a IA. Verifique o servidor.' }]);
                 } finally {
                     setIsLoading(false);

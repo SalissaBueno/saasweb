@@ -84,7 +84,7 @@
                     {/* Sidebar com funções e histórico */}
                     <div className="w-64 bg-graphite p-6 flex flex-col border-r border-gray-700 h-screen overflow-y-auto">
                         <div className="mb-8 text-2xl font-bold text-white">
-                            MyAI SaaS
+                            MVP do Lukinhas!
                         </div>
                         <nav className="w-full">
                             {/* Seção de Funções */}
@@ -130,7 +130,8 @@
                     {/* Dashboard Principal - Conteúdo central */}
                     <div className="flex-1 flex items-center justify-center p-8">
                         <div className="text-center">
-                            <h1 className="text-4xl font-bold mb-4">Bem-vindo ao MyAI SaaS!</h1>
+                            <h1 className="text-4xl font-bold mb-4">Bem-vindo ao salvador do seu tempo, 
+                            diga o que precisa e vá dar uma enquanto eu trabalho para você !</h1>
                             <p className="text-lg text-gray-300">
                                 Selecione uma função no menu lateral para começar a gerar conteúdo com IA ou veja seu histórico.
                             </p>

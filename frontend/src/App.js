@@ -27,9 +27,9 @@ function App() {
             {/* Dashboard Principal - Conteúdo central */}
             <div className="flex-1 flex items-center justify-center p-8">
                 <div className="text-center">
-                    <h1 className="text-4xl font-bold mb-4">Bem-vindo ao MyAI SaaS!</h1>
+                    <h1 className="text-4xl font-bold mb-4">Bem-vindo ao salvador do seu tempo rs!</h1>
                     <p className="text-lg text-gray-300">
-                        Selecione uma função no menu lateral para começar a gerar conteúdo com IA.
+                        Selecione uma função no menu lateral, diga o que precisa e vá dar uma enquanto eu trabalho para você.
                     </p>
                 </div>
             </div>
